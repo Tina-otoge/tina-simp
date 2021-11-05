@@ -1,0 +1,13 @@
+#landing {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+#landing h1 {
+	font-size: 5em;
+}
+
+#key-art {
+	max-height: 40vh;
+}

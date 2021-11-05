@@ -1,0 +1,28 @@
+#bga {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	z-index: -1;
+}
+
+#bga img, #bga::after {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#bga img {
+	object-fit: cover;
+	opacity: 1;
+	filter: blur(4px);
+}
+
+#bga img.fade {
+	opacity: 0;
+	transition: linear 1s;
+}
+
+#bga::after {
+	content: '';
+	background: rgba(0,0,0,.75);
+}

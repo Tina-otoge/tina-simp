@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block body %}
+	<div class="fullpage" id="landing">
+		<h1>{{ site.name }}</h1>
+		<div>
+			<img src="assets/img/tina_by_57.png" id="key-art" title="Art by @57_dayo">
+		</div>
+		<nav>
+			<a href="blog">Blog</a>
+			<a href="https://twitter.com/Tina_otoge">Twitter</a>
+			<a href="https://github.com/Tina-otoge">GitHub</a>
+			<a href="#about">About me</a>
+		</nav>
+	</div>
+
+	<div id="about">
+		{{ markdown }}
+	</div>
+
+	<script src="scripts/bga.py" type="text/python"></script>
+{% endblock %}

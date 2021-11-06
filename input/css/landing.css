@@ -2,12 +2,23 @@
 	display: flex;
 	flex-direction: column;
 	text-align: center;
+	font-size: 1.4em;
 }
 
 #landing h1 {
-	font-size: 5em;
+	font-size: 4em;
 }
 
 #key-art {
 	max-height: 40vh;
+}
+
+#landing nav a {
+	margin: 0 1em;
+}
+
+#about {
+	padding: 2em;
+	background: rgba(22, 22, 22, .77);
+	font-size: 1.1em;
 }

@@ -14,12 +14,14 @@
 			{% endblock %}
 		</title>
 		<base href="{{ "."|a }}">
+		<link rel="icon" href="favicon.png">
 		<link rel="stylesheet" href="{{ BUNDLE_FILE }}?{{ BUNDLE_TIME }}">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap">
 		<script src="https://cdn.jsdelivr.net/npm/brython@3.10/brython.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/brython@3.10/brython_stdlib.js"></script>
+		<script src="scripts/main.py" type="text/python" defer></script>
 	</head>
 	<body onload="brython()">
 		{% block body %}

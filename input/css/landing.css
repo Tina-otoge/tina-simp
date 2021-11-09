@@ -6,14 +6,31 @@
 }
 
 #landing h1 {
-	font-size: 4em;
+	font-size: 15vh;
+	margin: 1vh;
 }
 
 #key-art {
 	max-height: 40vh;
+	filter: drop-shadow(5px 1px 1px red) drop-shadow(-3px -1px 1px blue);
+	animation: float 2s ease-in infinite;
+}
+
+@keyframes float {
+	0% {
+		position: relative;
+		top: -3px;
+	} 50% {
+		position: relative;
+		top: 3px;
+	} 100% {
+		position: relative;
+		top: -3px;
+	}
 }
 
 #landing nav a {
+	font-size: 3vh;
 	margin: 0 1em;
 }
 

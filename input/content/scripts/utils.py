@@ -1,9 +1,7 @@
-import functools
 from browser import timer
 
 def repeat(seconds, start=False):
     def decorator(f):
-        @functools.wraps(f)
         def wrapper(*args, **kwargs):
             timer.set_timeout(wrapper, seconds * 1000)
             return f(*args, **kwargs)

@@ -22,7 +22,8 @@
 #bga img {
 	object-fit: cover;
 	opacity: 1;
-	filter: blur(4px);
+	/* Kills my laptop for some reason, will keep this off for now */
+	/* filter: blur(4px); */
 }
 
 #bga img.fade {

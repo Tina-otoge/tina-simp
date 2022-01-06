@@ -25,8 +25,8 @@ was proven wrong in Autumn 2015 and visited the now defunct Arcade Street in
 Paris which had a lot of major arcade rhythm games, such as beatmania IIDX,
 pop'n music, Taiko no Tatsujin, jubeat, and inevitably DanceDanceRevolution.
 
-Today I own several arcade controller replicas, namely but not exhaustively 2
-IIDX controllers, 2 pop'n music controllers, 2 Taiko drums, a SDVX controller,
+Today I own several arcade controller replicas, namely but not exhaustively 3
+IIDX controllers, 2 pop'n music controllers, 2 Taiko drums, an SDVX controller,
 a metal DDR dance pad, a Groove Coaster controller, a 24-inch touchscreen, and
 my passion even spread to my relatives as my girlfriend owns an actual jubeat
 arcade cabinet.
@@ -105,8 +105,8 @@ on commissions and goods.
 I am also not ashamed to say I consume a good fair of adult content, mainly
 drawings, manga and games, both amateur and professional. There is a plethora of
 absolute gems hidden behind the "it also happens to be porn" barrier out there
-and I'm very went behind it. I'm a great fan of AliceSoft and Illusion games and
-I follow a unhealthy amount of hentai artists.
+and I'm very happy I went past it. I'm a great fan of AliceSoft and Illusion
+games and I follow a unhealthy amount of hentai artists.
 
 As you would expect from someone who enjoys rhythm games, I also consume a lot
 of music, a fair amount of it is from the electronic independent eastern Asian

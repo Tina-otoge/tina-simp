@@ -3,7 +3,7 @@ from browser import document
 
 def convert_external_link_to_new_tab():
     for el in document.select('a'):
-        if urllib.parse.urlparse(el.href):
+        if urllib.parse.urlparse(el.attrs['href']).netloc:
             el.attrs['target'] = '_blank'
 
 def convert_anchors_to_absolute():

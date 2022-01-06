@@ -36,6 +36,13 @@ there. I spend most of my time and efforts getting better at IIDX and SDVX, but
 when I get the chance I also play other, including smaller and less known games.
 Have you tried Rhythm Doctor or Just Shape & Beats? They are amazing!
 
+I am also known for being the founder of Make Some Noise, a French organization
+and community for rhythm games enthusiasts. Our main goals are to create a way
+for the French players to interact together and to share our passion and
+knowledge about the games with others. This takes the form of organizing events,
+both IRL and online, having a presence at conventions such as the Japan Expo or
+Epitanime, and an active online Discord community.
+
 # Tech, computers, programming and school
 
 I am a developer. I'm currently enrolled at the French graduate school EPITECH

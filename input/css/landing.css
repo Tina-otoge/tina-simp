@@ -31,8 +31,14 @@
 	}
 }
 
+#about {
+	padding: 2em;
+	background: rgba(22, 22, 22, .77);
+	font-size: 1.1em;
+}
+
 #landing nav a {
-	font-size: 3vw;
+	font-size: 1.5em;
 	margin: 0 1em;
 }
 
@@ -40,10 +46,4 @@
 	#landing nav a {
 		font-size: 1.2em;
 	}
-}
-
-#about {
-	padding: 2em;
-	background: rgba(22, 22, 22, .77);
-	font-size: 1.1em;
 }

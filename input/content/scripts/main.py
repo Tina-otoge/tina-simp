@@ -1,4 +1,10 @@
+import urllib.parse
 from browser import document
+
+def convert_external_link_to_new_tab():
+    for el in document.select('a'):
+        if urllib.parse.urlparse(el.href):
+            el.attrs['target'] = '_blank'
 
 def convert_anchors_to_absolute():
     """
@@ -23,5 +29,6 @@ def smooth_anchor_scroll():
         el.bind('click', do_scroll)
 
 if __name__.startswith('__main__'):
+    convert_external_link_to_new_tab()
     convert_anchors_to_absolute()
     smooth_anchor_scroll()

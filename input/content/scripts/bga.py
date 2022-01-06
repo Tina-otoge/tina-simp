@@ -1,5 +1,5 @@
 from browser import document, timer
-from browser.html import DIV, IMG
+from browser.html import IMG
 
 from scripts import utils
 
@@ -7,7 +7,7 @@ START_TIME = 10 * 1000
 TRANSITION_TIME = 1 * 1000
 BGA_COUNT = 13
 BGA_PATH_FMT = 'assets/img/bga/lincle_generic_{}.jpg'
-BGA_PARENT = DIV(id='bga')
+BGA_PARENT = document.getElementById('bga')
 BGA_CURRENT = IMG()
 BGA_NEXT = IMG()
 BGA_PARENT <= BGA_NEXT + BGA_CURRENT

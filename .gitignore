@@ -1,2 +1,4 @@
 /.venv/
 /output/
+brython.js
+brython_modules.js

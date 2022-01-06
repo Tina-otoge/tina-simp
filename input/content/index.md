@@ -1,5 +1,5 @@
 ---
-template: index.html
+template: landing.html
 ---
 
 I am Damien Savatier, more known online as "Tina".  I like anime, programming,

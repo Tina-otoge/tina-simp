@@ -34,6 +34,25 @@ img {
 	object-fit: contain;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 1.5em;
+	margin-bottom: .5em;
+}
+
 h1 a, h2 a {
 	color: inherit;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.material-icons {
+	position: relative;
+	top: .15em;
+	font-size: 1em;
 }

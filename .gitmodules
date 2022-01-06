@@ -1,0 +1,3 @@
+[submodule "input/content/blog"]
+	path = input/content/blog
+	url = git@github.com:Tina-otoge/tina-simp-blog.git

@@ -1,7 +1,0 @@
-{% extends "base.html" %}
-
-{% block body %}
-{% for page in PAGES if page.meta.template == 'posts.html' %}
-	<a href="{{ page.href }}">{{ page.title }}</a>
-{% endfor %}
-{% endblock %}

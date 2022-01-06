@@ -52,3 +52,8 @@
 		font-size: 1.2em;
 	}
 }
+
+#footer {
+	padding: 2em;
+	background: rgba(0, 0, 0, .5);
+}

@@ -1,1 +1,29 @@
+{% set body_id = 'blog' %}
 {% extends "base.html" %}
+
+{% block head %}
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	{{ super() }}
+{% endblock %}
+
+{% block body %}
+	<header id="header">
+		<h1><a href=".">Tina</a>'s <a href="blog">blog</a></h1>
+	</header>
+	{% block content %}
+	{% endblock %}
+	<footer id="footer">
+		<ul class="socials">
+			<li>
+				<a href=".">Homepage</a>
+			</li>
+			<li>
+				<a href="https://twitter.com/Tina_otoge">Twitter</a>
+			</li>
+			<li>
+				<a href="https://github.com/Tina-otoge">GitHub</a>
+			</li>
+		</ul>
+	</footer>
+{% endblock %}

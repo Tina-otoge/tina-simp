@@ -1,7 +1,40 @@
-{% extends "base.html" %}
+{% extends "blog.html" %}
 
-{% block body %}
-<main>
-	{{ markdown }}
-</main>
+{% block content %}
+<div class="container" id="main">
+
+	<p>
+		<a href="blog"><i class="material-icons">chevron_left</i> back</a>
+	</p>
+
+	<article>
+		<h1 class="title">{{ page.title }}</h1>
+		<div class="meta">
+			<p>
+				<i class="material-icons">schedule</i>
+				<time>{{ page.created_at.date() }}</time>
+				{% if page.updated_at %}
+				(updated on <time>{{ page.updated_at }})</time>
+				{% endif %}
+			</p>
+			{% if page.meta.tags %}
+			<p>
+				<i class="material-icons">sell</i>
+				{% for tag in page.meta.tags %}
+				<span>{{ tag }}</span>{% if not loop.last %}, {% endif %}
+				{% endfor %}
+			</p>
+			{% endif %}
+			
+		</div>
+		<div class="content">
+			{{ markdown }}
+		</div>
+	</article>
+
+	<p>
+		<a href="blog"><i class="material-icons">chevron_left</i> back</a>
+	</p>
+
+</div>
 {% endblock %}

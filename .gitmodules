@@ -1,3 +1,6 @@
 [submodule "input/content/blog"]
 	path = input/content/blog
 	url = git@github.com:Tina-otoge/tina-simp-blog.git
+[submodule "input/content/old"]
+	path = input/content/old
+	url = https://github.com/Tina-otoge/homepage-archives

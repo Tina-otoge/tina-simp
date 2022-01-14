@@ -1,4 +1,4 @@
-# [tina-simp](https://tina.moe/new/)
+# [tina-simp](https://tina.moe)
 
 This is my personal website, written using my own Jekyll alternative https://github.com/Tina-otoge/sssimp
 

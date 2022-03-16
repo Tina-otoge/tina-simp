@@ -1,0 +1,83 @@
+FPS EMP:
+  amount: 2
+  brand: GAMO2
+  specs:
+    - Full default
+    - One has blue LEDs for the TT, the newer one I put pink
+  for:
+    - beatmania IIDX
+    - BMS
+  date: December 2015, December 2021
+
+TURBOCHARGER+:
+  brand: VIRGOO
+  specs:
+    - Omron 50g switches
+  for:
+    - SOUND VOLTEX
+
+beatmania IIDX PS2 US KOC:
+  brand: KONAMI
+  notes:
+    - Penny modded to increase buttons sensibility
+    - Displaced buttons plug to reproduce arcade turntable distance
+
+P2418HT touchscreen monitor:
+  brand: Dell
+  specs:
+    - 1080p 60Hz 24"
+  for:
+    - REFLEC BEAT
+    - BeatStream
+    - jubeat
+    - DJMAX Technika
+    - CROSSxBEATS
+    - Android games (Lanota, DanceRail, Deemo)
+
+Steam Controller:
+  for:
+    - Groove Coaster for Steam
+  notes:
+    - It's actually supported as an official controller for the game
+
+Rodent's PnM ASC:
+  for:
+    - pop'n music
+    - PMS
+
+POP ASC (PS2 era):
+  brand: GAMO2
+  for:
+    - pop'n music PS2 games
+  notes:
+    - This controller does not support PC
+
+DDR USB EX Pro:
+  for:
+    - DanceDanceRevolution
+    - StepMania
+    - In The Groove
+
+GENBU Groove Coaster ASC:
+  brand: GENBU / YuanCon
+  for:
+    - Groove Coaster
+  notes:
+    - This controller did not support the Nintendo Switch at that time
+    - I replaced the default board with an Arduino to support the Nintendo Switch
+    - Holds drop input, unsure if this is a hardware or software issue yet
+
+Official Tatacon for PS2:
+  brand: BANDAI NAMCO
+  for:
+    - Taiko no Tatsujin
+
+Official Tatacon for Wii:
+  brand: BANDAI NAMCO
+  for:
+    - Taiko no Tatsujin
+
+jubeat arcade cabinet:
+  brand: KONAMI
+  notes:
+    - Actually my girlfriend's cabinet, I host it and I make it work

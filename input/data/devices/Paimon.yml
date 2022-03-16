@@ -1,0 +1,8 @@
+machine: Raspberry Pi 2
+what: Micro-computer
+url: https://www.raspberrypi.com/products/raspberry-pi-2-model-b/
+
+name: I was still actively playing Genshin Impact when I got my hands on this machine, and naming a miniature computer after the name of a miniature waifu sounded fun.
+date: 2020 - Present
+
+usage: Initially, my plan was to use it as my all-in-one home server. A gateway to my physical storage, a media server to stream music and video, heck even a Minecraft server if I could. It wasn't long before I realized I was far too ambitious and the poor Pi was crashing often due to running out of memory. I finally opted for another machine to use as my home server (see FreeVM), and in March 2022 I repurposed Paimon as a retro gaming machine. While doing small talk with my mom, and bringing the topic of the LEGO NES, I showed her the NES Mini, then remembered poor Paimon who has been hibernating inside my desk for two years. It's been running RetroPie now, and I bought 2 cheapo NES and SNES controllers lookalikes to go with it.

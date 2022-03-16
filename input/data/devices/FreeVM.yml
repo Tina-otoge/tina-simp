@@ -1,0 +1,5 @@
+machine: Freebox Delta Server
+what: ISP-manufactured router
+name: I'm running a Virtual Machine on the router, and the ISP is called Free.
+
+usage: Free is all about leaving the power in the hands of the consumer, especially the nerdy ones. They are known for entering the market with prices cheaper than every other competitors at the time, offering "free" web hosting alongside their subscription, having torrent, VPN and ad-blocking features BUILT-IN inside their own router OS. Their latest router, the Freebox Server, is powerful enough to run actual VMs, giving you the full arsenal of a Linux distro directly from your router. When I learnee about this, I immediately installed Fedora Server on it, and started running a web server, a media server, and file hosting services on it. Alongside the 1TB of disk space this router has, this makes for a very useful and fun machine to have.

@@ -1,12 +1,12 @@
 # File not supported yet
 
-- FairyJoke:
+FairyJoke:
   description: Some description about FairyJoke
   links:
     github: https://github.com/Tina-otoge/FairyJokeAPI
     site: https://fairyjoke.net
 
-- coffee break:
+coffee break:
   description: Some description about coffee break
   links:
     github: https://github.com/asso-msn/coffee-break

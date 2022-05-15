@@ -35,7 +35,7 @@ girlfriend owns an actual **jubeat arcade cabinet**.
 I'm very passionate about them and I try to play a bit of every rhythm game out
 there. I spend most of my time and efforts getting better at IIDX and SDVX, but
 when I get the chance I also play other, including smaller and less known games.
-Have you tried Rhythm Doctor or Just Shape & Beats? They are amazing!
+Have you tried Phigros, Rhythm Doctor or Just Shape & Beats? They are amazing!
 
 I am also known for being the founder of [**Make Some Noise**][msn], a French
 organization and community for rhythm games enthusiasts. Our main goals are to

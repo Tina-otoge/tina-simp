@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block body %}
+	{% for name, project in data.projects.items() %}
+		<div>
+			<h2>{{ name }}</h2>
+			<p>{{ project.description }}</p>
+			<ul>
+				{% for name, link in project.links.items() %}
+					<li><a href="{{ link }}">{{ name }}</a></li>
+				{% endfor %}
+			</ul>
+
+		</div>
+	{% endfor %}
+{% endblock %}

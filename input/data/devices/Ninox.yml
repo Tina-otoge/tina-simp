@@ -1,0 +1,11 @@
+machine: MSI Nightblade MI
+what: Prebuilt central unit computer
+specs:
+  - NVIDIA GTX960 GPU
+  - 8GB RAM
+  - i7 CPU
+url: https://www.msi.com/Desktop/Nightblade-MI/Specification
+name: At that time I was decided on naming my machines after animal species. A ninox is also called an Hack-owl. A nocturnal animal felt right for something called "nightblade", also it starts with "ni" just like "nightblade".
+date: 20XX - Present
+
+usage: This is my current main computer. I have a Windows and Linux dual boot setup on this machine. I mostly use it on Linux, and I use Windows if I want to play arcade rhythm games, or if I want to livestream, as performance on Windows with recording softwares seems way better, probably an NVIDIA thing.

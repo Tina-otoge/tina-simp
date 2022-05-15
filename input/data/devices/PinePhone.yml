@@ -1,0 +1,14 @@
+product: PinePhone postmarketOS Community Edition
+what: Open hardware Linux smartphone
+url: https://www.pine64.org/pinephone/
+specs:
+  - Allwinner A64 @ 1.152Ghz
+  - 2GB LPDDR3 RAM
+  - 720x1440 5.95" LCD
+  - 5MP back camera
+  - 2MP front camera
+  - 3000 mAh battery
+  - Physical killswitches for data, wifi, microphone, speaker and cameras
+date: September 2020
+
+text: I was very excited when I learned about the PinePhone. The idea of a "truly free" phone, both hardware and software, sounds so cool. Sadly, the PinePhone is very low spec. Even though Linux is known for not being needy on the hardware side of things, the current mobile experience means running desktop apps with workarounds to make them fit on a tiny screen. Something so underpowered as the PinePhone have a lot of trouble rrunning things smoothly. Also if you can't comfortably use things like Discord, your bank's services or Google Maps, since the superior mobile experience is with their Android/iOS apps. It's a very cool gadget to have and it's very cool to have a Linux computer in your pocket, but I could already fill my Linux needs using Termux on Android. My PinePhone is sadly currently collecting dust, but maybe someday I'll find a good purpose for it, or even use it as a playground to dwelve into mobile Linux development myself.

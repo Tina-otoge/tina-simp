@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block body %}
+<table>
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Product</th>
+            <th>Date of acquisition</th>
+            <th>Status</th>
+            <th>Notes</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for item in data.items %}
+        <tr>
+            <td>{{ item.item }}</td>
+            <td>{{ item.product }}</td>
+            <td>{{ item.date }}</td>
+            <td>{{ item.status }}</td>
+            <td>{{ item.notes }}</td>
+        </tr>
+        {% endfor %}
+</table>
+{% endblock %}

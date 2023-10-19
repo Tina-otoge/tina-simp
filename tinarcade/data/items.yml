@@ -1,0 +1,60 @@
+- item: IIDX arcade style controller
+  product: GAMO2 FPS EMP
+  date: 2015
+  status: issue
+  present: true
+  notes: |
+    Keys 1 and 3 seem to drop holds. I think it only happens when there are
+    other keys pressed at the same time. Only happens in IIDX, BMS players
+    probably have debouncing.
+  image: https://www.gamo2.com/jp/upload/save_image/07010948_5d195868cb04b.jpg
+  with: beatmania IIDX, BMS, EZ2DJ/AC
+
+- item: IIDX arcade style controller
+  product: GAMO2 FPS EMP
+  date: 2021-12
+  status: issue
+  present: true
+  notes: |
+    One of the keys LED do not light up.
+  image: https://www.gamo2.com/jp/upload/save_image/07010948_5d195868cb04b.jpg
+  with: beatmania IIDX, BMS, EZ2DJ/AC
+
+- item: IIDX official PS2 controller
+  product: KONAMI beatmania IIDX Controller
+  date: 2016
+  status: issue
+  present: true
+  notes: |
+    Modded for AC turntable distance. Penny modded. Keys sometimes get stuck.
+  image: https://s.pacn.ws/1/p/8/beatmania-iidx-controller-4445.3.jpg?v=rrsyrd&quality=72&width=1024&crop=798,798
+  with: beatmania IIDX, BMS, EZ2DJ/AC
+
+- item: SOUND VOLTEX arcade style controller
+  product: VIRGOO Turbocharger+
+  date: 2016
+  status: ok
+  present: true
+  notes: |
+    Knobs are very sensitive.
+  image: https://pbs.twimg.com/media/DT4ZxEaVoAAcPHx?format=jpg&name=large
+  with: SOUND VOLTEX
+
+- item: SOUND VOLTEX arcade style controller
+  product: GAMO2 FauceTwo
+  date: 2023
+  status: issue
+  present: true
+  notes: |
+    Left knob sometimes disconnects. Can be fixed by unplugging and plugging the
+    encoder back in.
+  image: https://pbs.twimg.com/media/Ev3qNfOUcAAMlQy.jpg:large
+  with: SOUND VOLTEX
+
+- item: pop'n music arcade style controller
+  product: Rodent PnM ASC
+  date: 2017?
+  status: ok
+  notes: |
+    Not 100% arcade distance accurate. Buttons are a little bit more spaced out.
+  with: pop'n music, PMS

@@ -1,0 +1,113 @@
+:root {
+    --background: #333;
+    --text-color: #fff;
+
+    --background-light: var(--text-color);
+    --text-color-light: var(--background);
+
+    --red: #F92672;
+    --orange: #FD971F;
+}
+
+body {
+    margin: 0;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    background: var(--background);
+    color: var(--text-color);
+}
+
+a {
+    color: var(--red);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--orange);
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.5em;
+}
+
+td, th {
+    border: 1px solid var(--text-color);
+    padding: .5em;
+}
+
+.emoji {
+    font-size: 80%;
+}
+
+.permalink.emoji {
+    font-size: 60%;
+    text-decoration: none;
+}
+
+.controllers hr {
+    border-color: lightgray;
+    width: 90%;
+}
+
+#back {
+    text-align: center;
+}
+
+#games {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#games h2 {
+    margin-top: .5em;
+    margin-bottom: 1.5em;
+}
+
+#games .photo img {
+    margin: .5em;
+    max-height: 300px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.game {
+    background-color: var(--background-light);
+    color: var(--text-color-light);
+    border-radius: 10px;
+    padding: 1em;
+    padding-top: 5px;
+    margin: 1em;
+}
+
+#games .sections {
+    display: flex;
+}
+
+#games .sections h3 {
+    text-align: center;
+}
+
+#games .icon {
+    text-align: center;
+    font-size: 3em;
+}
+
+#games .sections > * {
+    flex: 1 0 calc(33.33% - 10px - 1em);
+    margin: 0 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: .5em;
+    max-width: 500px;
+}
+
+@media screen and (max-width: 900px) {
+    #games .sections {
+        flex-direction: column;
+    }
+
+    #games .sections > * {
+        flex: 1 0 auto;
+        margin: 5px 0;
+    }
+}

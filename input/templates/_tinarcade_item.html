@@ -1,0 +1,38 @@
+{% if item.name %}
+    {% if item.get('use', True) %}
+    <h4>{{ item.name }}</h4>
+    {% else %}
+    <h4>{{ item.name }} <small>(Not in use)</small></h4>
+    {% endif %}
+{% endif %}
+
+{% if item.owner %}
+<p>👤 Owner: {{ item.owner }}</p>
+{% endif %}
+
+{% if item.date %}
+<p>🕐 {{ item.date }}</p>
+{% endif %}
+
+{% if item.cost %}
+<p>💰 {{ item.cost }}</p>
+{% endif %}
+
+{% if item.notes %}
+<p>{{ item.notes | markdown }}</p>
+{% endif %}
+
+<table>
+    {% for spec_name, spec_value in item.get('specs', {}).items() %}
+    <tr>
+        <th>{{ spec_name.title() }}</th>
+        <td>{{ spec_value }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<ul>
+{% for link_name, link_url in item.get('links', {}).items() %}
+    <li><a href="{{ link_url }}">{{ link_name.title() }}</a></li>
+{% endfor %}
+</ul>

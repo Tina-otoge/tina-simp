@@ -1,0 +1,210 @@
+games:
+  2dx:
+    name: beatmania IIDX
+    permanent: true
+    photos:
+      - https://lh3.googleusercontent.com/pw/AP1GczOdVk40xHgwTJ_OFuso_F3RLchDfH3MmOpy7LAHvQD3_g9iQ7QI-IO5e0TNyHi82NgliVErnmM1hLrMxaDWg_S2lsMiA-PJsPdN67rN0QPqoBEyRP5TGLiWQOwjRkf2j84oqApNIZPvUrgvRzA98MmftqlQlLaplFDRp3uoEhWjO4Fnow8q0RpunBuCGF6iCGVcRow_06nXGOk6BhNPY4Tj6JH4tGjwYEmj1E2RglLR916qOA4AmBnk4roHDBQPSHk9LNw0tKzkAhA1hMsfSdB-NLGFz5hOl8qNYWZNpqQnkQPKHVvMcwgBOHENrRpRyaV-Zmh3V5lJ5QJ3TVpqD25BCG6fMfXrnICXxgh7F0jTcd0SBR1489lBD76ae505314mft1sdzhZYBTFqZwDiRcj5gn_Si-Ok2PfR7ym3Hau9-Qih1l4rJTm6VL1nvQwJdAN-xy6jWoufJAfmbbVwEMYIRuFlBt1COSAff6U2IrYR2spXgf510Z0RB6RGgrDoWurb2CnMjDZilN8UJ2e1H2ve7OqQu5fqCSnGC8B_-lxQSAlKC3LnTn9GyeHywIprG74k6RciTVOIN90pOc5eDqnjQW9QQ7JlGa6aHmxeDGih0JPyzCnQn9-Ze0gG0KdICiI4HOL5BaVkr2HhSqnAqaQVG5jgnBCQRTLBHd9VXI2uSQDYqawh8vGB5QojwDk_96hWi4fPDCixKFkyd6ZG-ut3AOJrmilP7Xp5fh1yJAqA0ISlFpNbol4rufu8nNumAjOrtzAZtrJ2ej-gjtqudqBgKKaiF8a8M_oxdiNuB8cbnt24nqaI84JwRgeV-36enONFrnUZPK04BgbjYGhQ0O9YOYqU2805rXxJCcyr6BaWg1uPN_cuHtu8q0yREWW2vKhf1AEEAr7wBLJdqthjOlK9AJodawJ-iDrBGV1cgnEpXimOBOy9PjfUlAV3WbW60ep1MHVXF_g4wCBWk9aXJO6r472xkEu=w1236-h927-s-no?authuser=0
+
+    controllers:
+      - name: Controller from official cabinet (legacy model)
+        notes: |
+          Used, bought on YAJ via ZenMarket.
+
+          IO: qiyubi's custom PCB for official IIDX IO.
+        cost: ¥28,000 (165€) + shipping ¥26,931 (159€) + customs
+        date: 2023-07-05
+        specs:
+          buttons: SANWA
+          springs: SANWA OBSA-SP-20 (20g)
+          switches: Omron D2MV-01-1C1 (10g)
+      - name: GAMO2 FPS EMP
+        cost: Gift from family
+        date: 2015-12-25
+        specs:
+          buttons: DJDAO custom
+          springs: DJDAO 40g
+          switches: Honeywell-V15S05-EZ015 (15g)
+        use: false
+        notes: Used only for events now.
+      - name: GAMO2 FPS EMP (2021 rev)
+        cost: $172 + shipping $103
+        date: 2021-11-15
+        specs:
+          buttons: DJDAO custom
+          springs: DJDAO 40g
+          switches: Honeywell-V15S05-EZ015 (15g)
+        use: false
+        notes: Pink TT LED, used only for events now.
+      - name: KONAMI KOC PS2
+        cost: Gift from bemani-inside
+        use: false
+    displays:
+      main:
+        name: iiyama G-Master G4380UHSU-B1 42.5" 4K 144Hz
+        links:
+          amazon fr: https://www.amazon.fr/gp/product/B09QGXV18B/
+        cost: 600€
+        date: 2023-06-14
+      subscreen:
+        name: Dell P2418HT 24" 1080p touchscreen
+        links:
+          amazon fr: https://www.amazon.fr/gp/product/B01N1Q0M4O/
+    audio:
+      speakers:
+        name: Logitech Z313 2.1
+        cost: 30€
+        date: 2023-02-08
+        links:
+          amazon fr: https://www.amazon.fr/gp/product/B003LNXT7Y
+      card:
+        name: ASUS XONAR AE 7.1 ASIO
+        cost: 48€
+        date: 2024-02-29
+        notes: Used, bought on leboncoin.
+    card: true
+    headphones: true
+
+  sdvx:
+    name: SOUND VOLTEX
+    shared:
+      - chuni
+    photos:
+      - https://lh3.googleusercontent.com/pw/AP1GczMgVx9-g0PuTRvTYr56OOPA8ZoU-vUtnvb6Xf78MlxvL98sheik_gtkMQuRW_NeamYyUvTLHz8rpgFqFpKovOiabFiSfgfFhweNyCOlU8QxFfzrJYtmbyV7spWfYci5pVrJxYpPE7Zk2Kp4BR57XUnKq5nOLqNEsl1PZXD3ghrAqAT1Sh2xsTcqL2vOBhMBhbhilEfYFGIou8aHK_AJHGDFj_ZtHZeabbNaYbdPFhXAVdOoT57vcWLOBHzCpu6Zvq646KuLGEWv7nEgbzNedWgjtNxE0c4RSuz-NME_NmPNseih76-PTd1p55XEQ0vvHWWnM67Q3u3v5JFJtu_3fKoxhRQIHQPjj8yxjL-PwEIZ19FFKOO-OTuVsyp2YAW2U6xvM_uxZr_6HDHsLSAkExswGM_m05CPC-KJth64u98vzYkBVkUy6dvnHILKc50aXdVGCTVT0EbhonRN-iAyfP-XkhZ9s2r63Y-x3ETDUKpXbpZ9VjVpZ2vkCsm9F1IditwiFV9mMfTM-njalwbWiZyqWDq8RQO3CAO6X0Y6j6o1uCdScOFzOB0qTZ6VwXuQ5kUFqijsBF_uP71GA1krSW7uI7dk57E3Bk0whVQsA0Ot6U22iFsViskxtA9QrFWUdQG0X8s7q5syxD3xNqee39nDx6OFKH4riEIGgYvD6q0pKx_2nGxAklpO4Ut_yDsK7OBoQR7c1f6XKgPKpOt5yvv7cLqeCuhb5ZkUm8YJxnPU9x_Rmtie9Ob6pPdVrCy6cWmYcf2g53kkLmuid32XpjP2tO5HN1qKdBFHjA72kKBUu2930ouWdc0Yhsyr4bvpi0B_s3gxgt8aWw3FP2zCQZZGlxG_8Kc7RFba6iTsI3WTQOSE_3JLyNF2MD0xhCykr7YJ9SmfkwqfKNoxHpyT-9PKp-YLrMeTL9o2qyxe3w5R3o0Q-l8_aKjVyrnTUCqRVlq2NwOHRXVsaYiPAQTWXdfQJNkHCEfK=w695-h927-s-no?authuser=0
+    permanent: true
+    controllers:
+      - name: GAMO2 FauceTwo (VW Edition)
+        notes: Used, bought off @konakwa.
+        cost: 220€
+        date: 2023-02-14
+        specs:
+          buttons: DJDAO custom
+          springs: DJDAO 60g
+          switches: "BT: Omron V-10-1A4 (100g), FX: Omron D2MV-01-1C2 (25g)"
+      - name: VIRGOO TurboCharger+
+        cost: Gift from family (approx. 300€)
+        date: 2016-12-07
+        use: false
+    displays:
+      main:
+        name: Samsung Odyssey G3 32" 1080p 165Hz
+        cost: 200€
+        links:
+          carrefour: https://www.carrefour.fr/p/ecran-pc-odyssey-g3-32-samsung-8806092802179
+      subcreen:
+        name: HMTECH 10" Display For Raspberry Pi 1080p touchscreen
+        cost: Gift from work
+    audio:
+      speakers:
+        name: Logitech Z213 2.1
+        links:
+          amazon fr: https://www.amazon.fr/gp/product/B00JKDN6RW
+      card:
+        name: ASUS XONAR AE 7.1 ASIO
+        cost: 48€
+        date: 2024-02-29
+        notes: Used, bought on leboncoin.
+    card: true
+    headphones: true
+
+  chuni:
+    name: CHUNITHM
+    photos:
+      - https://lh3.googleusercontent.com/pw/AP1GczMNKckaVP6DuqbsDzN4vp1YLAjwkIMYKbUb2QY-1SfU96XGAsncfxEbB-9UqYTSJoyqeTSK5fLT-7M0fEgtU5p1fQ00b5Ib3uCBUPXxBDaBZpLR7q_hMAHaL-p725uKGrP3CX7uvI52r0PEDiq1N0CSn20YrL7QtYlppja5voRtw5HXtx3mRY8QHlhLmm5V8yTW469BM--E6Cx1vUtY7mPJsDLRGJs0ucr7CWrbKTA25LxQqK_OYkaHEaBqvPi0XQKrS-ZyaeMcbGb93SDSDXbdU1OD9LhHNWiF61cYkJqmrt_-wEWQ-fF9u7U3ekeA6HybsjAx5psOF87Y7_Plq7WCpIqt5yNsPAHfcR1eqHdeBHx4rorjD3SEkiEzadNuz1ldmq8pSVI5DNepfDAnSFDEYDAIfOTo5YprW670FyG-yC4C7WQg5iS97dK7y56P4MWxd829HGqglb3mRLge2bHsHUBoybtdjRHovdEgv-exrXocYOVqj1AS7ix30EOI_q3omTfcLEwwwjTHxXCNN_Vj35YxyZskv4fh4bXGuPC-hHWQipDkq45X_E1gHI3-229zjxOSL942jzx-B9gBy5v4yXmgB872d_OweWVR1jxk0dR-uuDcz_2_FdZ2PWSTLMzBcL1-P3hjgdWi5Sf8Qbx3NYIOjtMpIjq6c4X2pgEujyDN109PanVZfD5GI12wKOsTFuRtPuo9C5w072FjQQv62MkOwoNw4gHkjyv3jlc4KoFNsJZov09GbqJvn9qlK4e9ZSOH7mmwV9r_AmvHTJnqmsh8u0A7t3clSaKn-tfyNhbBAXkQGqfu53dO_ridA9fA3rPkKHGssYFg1-L19B050xN6dFlt7whtevCo5lolV3LOjPbd7-4PfbHlLJ8TBVRO9zK0C6ZV4G7lxNTyTWmGh8qQmfh7bkGc-mQF5fatAj1q5bIzpI80qLmKpRHzeJ6Rlepm-yPzGUeYTgLYUsd5sTDM6ZN_Zw=w1236-h927-s-no?authuser=0
+    permanent: true
+    shared:
+      - sdvx
+    controllers:
+      - name: GCON 2.5
+        notes: Used, bought off @konakwa.
+        cost: 280€
+        date: 2024-05-13
+    displays:
+      main:
+        name: Samsung Odyssey G3 32" 1080p 165Hz
+        cost: 200€
+    audio:
+      speakers:
+        name: Logitech Z213 2.1
+
+  wacca:
+    name: WACCA
+    photos:
+      - https://lh3.googleusercontent.com/pw/AP1GczNIARJ4scesVBAtMfQQHUDqXF1Gofi6ELsvlkGaT6XpkNCX8nyZvOz7Y3TLFfqruyuFx0pY2ibbS_0ncYxBiYarUm-koGzURYnPIWg8hVaJsG17PV1AahR1JhsnrE7zYXgjPTFLu0bkMszq4XoKUmE7UAV7FCFOWHSYUtW0kyH0XC4aNTn5z9dd3rd5Y0cUnS_mfz8oruD34K_z3PDb79wV5LStKlqK-U4TeocipXOBJaAb41WmUUcyHwXdmsDV1yrqsUcT_zjjH-P0vs_OEOh6AefuShog9sI9chvnohHtMJUr2Cei61w7iYVFWoou-7RzRKkOPRLywtQBvBLy7tr_sUxR3jrMCPJMrufydJplMRov5GlfPWFKhbWooD3Mgx3a28sAfJQnp8_cNYmtGxbQlfYwrgWb9uWuAbOlVOdaMx90bKcvqv8t1NUPRpGCZFdbxKur2Isaxu50Znz7ddbtT2mXlpJG4io5B1H2MM4cfkgCHERvZZ3BKoBQ9_R00AkyjH-xZV4m17KFb6mk4wtyXMvWpTSOopZTDnPck0N-brAWrRpBKkSjO_gBZNXfXpegvBTwGupcCgCEd5Vi3u5GnfD770I2yfM_HrxvlPB13MnZuN3-yPUetecVF2h9Y-QcrSQnfYTc-Uq-mgX9lF5aizO7asrBC_bJ2Tea-88_LoJjELKtK46gVSUrcMJPBv2_SM2bUZeE2_XRrX0khBLcDZJG_Ow-7-aHhWDXWzZN-OxBZi5eim1XesgTF1M819CsR53DM5Lq9YOcaMnDSZpP4SH0l8_Rk89AGQU6WP33IaOyec0aGzZnL1E2VQS6oKJffZZWCe85tJd_j_TQS5gxkkKbEkkftwG7zSvgm7TJzpr3-c9bErYx0WBp9GhQPOFax4naK2QaEg4l64U0RJo3kI3lOr63f_v5txq1YEUYSJQ9hhuVlvG0sXfkikN5LsFrGD18VSfhyOJtkji6869kOss31OHn=w695-h927-s-no?authuser=0
+    permanent: true
+    cabinet:
+      date: 2024-01-28
+      cost: 3500€
+      notes: |
+        Bought off @erushi. Was previously operating at Envie De Japon, Nantes, France.
+
+        SpeedyLabs LEDs set, WACCA Reverse decorations.
+    card: true
+    headphones: true
+
+  ddr:
+    name: DanceDanceRevolution and In The Groove
+    photos:
+      - https://lh3.googleusercontent.com/pw/AP1GczOBXvfyPPCYcRXNW2fWV80xFXCCfGYVdap5x6MDsIkmBl2z42E6AToiAsg9ET04JtSb92S1xugpRCTTxZ3yHhnKKSujnmKkNbRMDaPG16hoN9STf9_gkhJ4wQtW67_Qs2E_DBjp9dSnRPXtF4nDCQNyCNdHRglKiVbtjHRH0zBugwnMOrfa87TGfk0-4lCmdBsoWtZxGysaZXNrN9crTwbwIZWZcoNtA5tQiIy_PMnMh2nRJvCmOGqaLgB_lak4gWLLVezPw6NfU3IEtjbzjvTUtUEEfUQwmI46R9KiO39BetNSZJoFvHeywgWjWfhTpb9DAptkX5Hsy1SynCus0pSOgQCNomauW2Suq_M8j377AGKGIsRuMyO2gWVIIB1g8FI2YfblTOmCzfGh8cYxvYy-VP6y5SPClU6qsonMPIi-EpXYZ_pw8_X6mLb6ETlTglOAGaO9mTavZbAwxY_Wf9F2BYe5xf79mTli7KyP0SuEhTCjd4hWIxUApdB-Aj6P-CK4npOWa3pWgQVPz6ZwudUunXHafpnoq67le685xCMw7gjG6hUKfRfliRbgQ_l3dC-rDvqpDsQ6VIOfbGnDUeD-MyVpEQQZTwzgc6eQDkMpH8UVXoDEgmMcGyaJBf318zBvrSZTRHucacPUfTwZvG26IMEG5OqMCtbQUqb_NFEoHJ0llSyqUCU_VR7noQTsS7KHdvY_7tu4-y6be_i5lnqOYI7Wb0PCrdkyE5WkhsPHyru1oxi1W_7jn6Xq2GcpvJOcYD4x0w8RKnFClcr1owFROE3e5bY3J2moeWaSgRVtaVpaAe2b9yBY2auvZE4kyWGmK3h_7D2MWbhS92keb8yaGnNqLIkvNa9ovSGmpB8M7vsbuFmtJl0WSrE4-uh6duVxppI1V8n29E26oYG1WkKVipqhiSflD5debBQRK9bg_qcTJFbDePjI8TLaUGGWaZk1nVaeYNSTN_rQtrA9yeApDSU0w6LM=w1236-h927-s-no?authuser=0
+    permanent: false
+    controllers:
+      - name: L-TEK USB EX + Handbar
+        cost: 156€ + shipping 25€
+        date: 2018-10-25
+        notes: 100Hz, modded, added handbar (225€) on 2023-11-20.
+      - name: L-TEK USB EX PRO 2 + Handbar + buttons
+        cost: 413€ + shipping 58€ + 20€ Stripe fee
+        date: 2023-11-20
+        notes: Another Handbar was included in this shipment to use with the USB EX pad. Refer to it for price.
+    card: true
+
+  popn:
+    name: pop'n music
+    permanent: false
+    controllers:
+      - name: Rodent PnM ASC
+        cost: 150€
+        notes: Used, bought off @nydy.
+      - name: GAMO2 POPN (PS2 era)
+        cost: Gift from bemani-inside
+        use: false
+
+  piu:
+    name: Pump It Up
+    photos:
+      - https://lh3.googleusercontent.com/pw/AP1GczPbxJpl_IBdlXLx40LXuHRMByjwhE1qp1aVruNrSc-zTYC8gtJZFhYJwFVY7pKOu_ztcgXKrkX3RFwBmoEV_X9ZZMVu5qdBwm9V44oFWsyhyqg2bbZC2m8iwsWIGPV25QIyDsqx2y8feWmJyJL0nsNEL3H4DgHYm-NuhNF5O-6--7e2eFlMHmdYIt1mG_cFJavvNaTqJC6H3-E7eTXUetKlkMotIG4h9ZUVzRtBvbF3ye82R63XzetPTI61GntoEKIcNE470X0o3B7WiIUCtUfzLqwMNn9HQ3Ibizbz7EDTfzb-8CI1Zp2Csw9A50RxKJHKde0S-XjbnNZCSm5G8SzVz_jNp-nBqmnL6BIFNzdc5FApRbkEO0efbA-p0RlUKw3LbVb9QJifxypPZCmHnxIzToeqMXxZ_4lqMI00qdWlXSzCTDSGWs0ffkqvgcHnUzxWBImq--FyIpFojJEBxsCPmuow8QA2k-jodMMfj08ZhZmP3eJppnQIpwNk3vkOqpOBWTPLHcob-qIQPzubJz6NUjgKyMTwpeZHlI8pJ-RUcRNfr9UagQ6yvyOuqKzDf2Cyr3xY8I13gQHX8hGsTThsRxlUDTShvxTUA6XZtuTDcYxWxFtTxED0Zv7bBEwJhgYFYrLSs8ZUl7Hjn9gUHJLwstUYGsZp1Z5Kz79kMenHan_hlUfpX7Q0vWacAk9DIx3ZV-n91ZcaNVYMjlrJ6hwcpGuO54udhz8fXLItYw_Q36r26xID_Ra5wklwEHQ27Fq9aWU1xYEjtn9YgAUqXgCFcX59D9fFBQSv5ij3Ky3QEay_tLGbQzJtsIYC9FIH5V2COr57HO4Nfpi1R4FDcnwrYo3gxtYrmFsSfNodSFtmt6-8iuPtA1tGlXX22hSkTAffk6h5jYqlNlwDhldW3-W9NdK0CLKApdk29EEj5QD9NAoQbdbiutXjrGQn16CCC1MnP43N4aUT46XJBN-BKBvTIXDiBLrm=w1236-h927-s-no?authuser=0
+    permanent: false
+    controllers:
+      - name: L-TEK PIU EX + Handbar
+        cost: 75€
+        notes: |
+          Used, bought off @pearlgaming.
+
+          Handbar is shared with DDR setup so price is not included here. Refer to [#ddr](#ddr).
+    card: false
+
+  gc:
+    name: Groove Coaster
+    permanent: false
+    controllers:
+      - name: YuanCon GENBU GC
+        cost: Gift from family
+        notes: Modded for Switch compatibility, drops inputs on holds.
+
+  taiko:
+    name: Taiko no Tatsujin
+    photos:
+      - https://lh3.googleusercontent.com/pw/AP1GczNZGuHrXijgrQT32zIKrPezniICidyLE8S3-psPcsm2xT4XYrMlUpIcttdWgNyc-x46SP09GQ_q9nUwmFq-u06ShJLl7EPwjOlmekH0IF-T4NWNbTOTp0fbQ2fLc7V8td9Q8sZUYBI2BMiwKVHonWFSpDtymyuSdAUlykLhW1W9AQj7fvl6aT9SC6_LfobJiL10oUcd_TuBZfdN5VvsQuoem9u4e1EuHFXrkEyYtwKNdAi8x5ZsGxnYqgd-lxHd24G1ZIlansnDNgfbws_eV968whfgl5YyYWMevW1_Ki4YqJp2-4guhRrSvRYEzTtMbbaE9Bg_8JVlrdi0_WC6EqIelTrfxianapqXaEobeww4UjBv-2fv0hLkbXQsPJg3bFErxHsHbk1JO3zOKK2s8iVpsv8dPHJuWupBquF414pBVbPn0J7_pYjazX9d9eeE6iaoiduvHDgeB1GhT1LflQ5Rt6Ecu9dkS2l-OJgk5s1g3zZ-Cg8by6IhwgCH1yOCOI8-Sa94970RPz21_Xhzfo9AxqY7WIU27DgXz99c35zBghsOHYsMxCZLDOl35aEaI0F-9uWQYDbiTrPB3c72P3oHflBYun7gs-09sXYj2nywxgvBmMrUxf7wVYQ35biqfd5I2OdGo8WfN3smiytIm4ucGxxAP7Ay5T_rwiCMwICUUsrJ8uglRwM4mhZZY-HylQtbF1EuH3cS8frBsOWCkNIMDzq4YnXYz6zqu-zleAWRQETLhIevmsQzJjOaZbKm5QkqRx74pzI9MROUGTIkcmVWjmTn7ftYnl2C1oOVZIpXLR4rD3FNUKVn35rrYegOewC_FAKUcpeycaRDMhNPOd_0Ea1iZqL0n_t3dcbdIZzmFDyMndCJD8wmKiJVsHqKXG_a54KGMISa91ibAbw_8M0n615bP6klGD9KO5wDXrrK1Z0Yfj4MNvjwW8lDDQMDXBc1F6Rc36A8uN5nAUhNgH0O5uhPiImi=w1236-h927-s-no?authuser=0
+    permanent: false
+    controllers:
+      - name: Taiko Force Lv5
+        cost: £305 (355€)
+        date: 2023-02-04
+        notes: Bought off @mangomizer. Included a pair of cheap bachis, justifying the £5 difference with the other one.
+      - name: Taiko Force Lv5
+        cost: £300 (350€)
+        date: 2023-11-26
+        notes: Bought off @casthour / crppolor.
+      - name: Official MyBachis
+        cost: 130€ (¥6000 each)
+        date: 2024-01-17
+        notes: Red, Blue, and Yellow official pairs of MyBachis.

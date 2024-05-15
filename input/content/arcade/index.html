@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+
+{% block head %}
+{{ super() }}
+<link href="arcade/style.css" rel="stylesheet">
+{% endblock %}
+
+{% block body %}
+
+<h1>Tinarcade!</h1>
+
+<p id="back">
+    <a href=".">&lt; Go back to my site</a>
+</p>
+
+<div id="games">
+{% for id, game in data.tinarcade.games.items() %}
+    <div class="game">
+        <h2 id="{{ id }}">
+            {{ game.name }}
+            <a href="#{{ id }}" class="permalink emoji">🔗</a>
+        </h2>
+
+        {% if game.photos %}
+        <div class="photos">
+            {% for photo in game.photos %}
+            <a href="{{ photo }}" class="photo" target="_blank">
+                <img src="{{ photo }}">
+            </a>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if game.permanent == false %}
+        <p>🔧 This game is not permanently installed. So it does not have dedicated display and audio items.</p>
+        {% endif %}
+
+        {% set items = {'displays': game.displays, 'audio': game.audio} %}
+
+        {% if game.shared %}
+        <p>🤝 This setup is shared with other games. This means display and audio items are the same, not that I own them multiple times!</p>
+        <p>
+            See:
+            {% for game_id in game.shared %}
+            {% set shared = data.tinarcade.games[game_id] %}
+            {% set _ = items.update({'displays': items.displays or shared.displays}) %}
+            {% set _ = items.update({'audio': items.audio or shared.audio}) %}
+            <a href="#{{ game_id }}">{{ shared.name }}</a>
+            {% if not loop.last %}, {% endif %}
+            {% endfor %}
+        </p>
+        {% endif %}
+
+        {% if game.cabinet %}
+        <p>This is an actual arcade cabinet.</p>
+        {% set item= game.cabinet %}
+        {% include "_tinarcade_item.html" %}
+        {% endif %}
+
+        <div class="sections">
+            {% if game.controllers %}
+            <div class="controllers">
+                <h3>Controllers</h3>
+                <div class="icon">🎮</div>
+                {% for item in game.controllers %}
+                {% include "_tinarcade_item.html" %}
+                {% endfor %}
+            </div>
+            {% endif %}
+
+            {% if items.displays %}
+            <div class="displays">
+                <h3>Displays</h3>
+                <div class="icon">🖥️</div>
+                {% for item in items.displays.values() %}
+                {% include "_tinarcade_item.html" %}
+                {% endfor %}
+            </div>
+            {% endif %}
+
+            {% if items.audio %}
+            <div class="audio">
+                <h3>Audio</h3>
+                <div class="icon">🎵</div>
+                {% for name, item in items.audio.items() %}
+                <p>{{ name.title() }}:</p>
+                {% include "_tinarcade_item.html" %}
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+{% endfor %}
+</div>
+
+{% endblock %}

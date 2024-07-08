@@ -1,4 +1,4 @@
-games:
+setups:
   2dx:
     name: beatmania IIDX
     permanent: true
@@ -64,15 +64,15 @@ games:
     card: true
     headphones: true
 
-  sdvx:
-    name: SOUND VOLTEX
-    shared:
-      - chuni
+  chunisdvx:
+    name: CHUNITHM & SOUND VOLTEX
     photos:
+      - https://tina.moe/assets/cloud/tinarcade/chuni.jpg
       - https://tina.moe/assets/cloud/tinarcade/sdvx.jpg
     permanent: true
+    shared: true
     controllers:
-      - name: GAMO2 FauceTwo (VW Edition)
+      - name: SDVX GAMO2 FauceTwo (VW Edition)
         notes: Used, bought off @konakwa.
         cost: 220€
         date: 2023-02-14
@@ -80,7 +80,11 @@ games:
           buttons: DJDAO custom
           springs: DJDAO 60g
           switches: "BT: Omron V-10-1A4 (100g), FX: Omron D2MV-01-1C2 (25g)"
-      - name: VIRGOO TurboCharger+
+      - name: CHUNITHM GCON 2.5
+        notes: Used, bought off @konakwa.
+        cost: 280€
+        date: 2024-05-13
+      - name: SDVX VIRGOO TurboCharger+
         cost: Gift from family (approx. 300€)
         date: 2016-12-07
         use: false
@@ -105,26 +109,6 @@ games:
         notes: Used, bought on leboncoin.
     card: true
     headphones: true
-
-  chuni:
-    name: CHUNITHM
-    photos:
-      - https://tina.moe/assets/cloud/tinarcade/chuni.jpg
-    permanent: true
-    shared:
-      - sdvx
-    controllers:
-      - name: GCON 2.5
-        notes: Used, bought off @konakwa.
-        cost: 280€
-        date: 2024-05-13
-    displays:
-      main:
-        name: Samsung Odyssey G3 32" 1080p 165Hz
-        cost: 200€
-    audio:
-      speakers:
-        name: Logitech Z213 2.1
 
   wacca:
     name: WACCA

@@ -7,14 +7,17 @@
 
 {% block body %}
 
-<h1>Tinarcade!</h1>
+<h1>
+    Teapot Arcade!
+    <br><small>Tina + Compote = Teapot</small>
+</h1>
 
 <p id="back">
     <a href=".">&lt; Go back to my site</a>
 </p>
 
 <div id="setups">
-{% for id, setup in data.tinarcade.setups.items() %}
+{% for id, setup in data.teapot.setups.items() %}
     <div class="setup">
         <h2 id="{{ id }}">
             {{ setup.name }}
@@ -46,7 +49,7 @@
         {% if setup.cabinet %}
         <p>This is an actual arcade cabinet.</p>
         {% set item= setup.cabinet %}
-        {% include "_tinarcade_item.html" %}
+        {% include "_teapot_item.html" %}
         {% endif %}
 
         <div class="sections">
@@ -55,7 +58,7 @@
                 <h3>Controllers</h3>
                 <div class="icon">🎮</div>
                 {% for item in setup.controllers %}
-                {% include "_tinarcade_item.html" %}
+                {% include "_teapot_item.html" %}
                 {% endfor %}
             </div>
             {% endif %}
@@ -65,7 +68,7 @@
                 <h3>Displays</h3>
                 <div class="icon">🖥️</div>
                 {% for item in items.displays.values() %}
-                {% include "_tinarcade_item.html" %}
+                {% include "_teapot_item.html" %}
                 {% endfor %}
             </div>
             {% endif %}
@@ -76,7 +79,7 @@
                 <div class="icon">🎵</div>
                 {% for name, item in items.audio.items() %}
                 <p>{{ name.title() }}:</p>
-                {% include "_tinarcade_item.html" %}
+                {% include "_teapot_item.html" %}
                 {% endfor %}
             </div>
             {% endif %}

@@ -29,6 +29,12 @@ a:hover {
 h1 {
     text-align: center;
     font-size: 3.5em;
+    line-height: 1;
+}
+
+h1 small {
+    font-size: 0.5em;
+    line-height: 1;
 }
 
 td, th {

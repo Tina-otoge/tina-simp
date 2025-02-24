@@ -142,6 +142,16 @@ setups:
     card: true
     headphones: true
 
+  geki:
+    name: ONGEKI
+    photos:
+      - https://tina.moe/assets/cloud/teapot/geki.jpg
+    controllers:
+      - name: GAMO2 ONTROLLER
+        cost: 643€ ($400 + $238 shipping + 35€ customs)
+        date: 2024-08-08
+    card: true
+
   ddr:
     name: DanceDanceRevolution and In The Groove
     photos:

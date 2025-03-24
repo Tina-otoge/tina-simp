@@ -7,23 +7,26 @@
 
 {% block body %}
 
-<h1>Tinarcade!</h1>
+<h1>
+    Teapot Arcade!
+    <br><small>Tina + Compote = Teapot</small>
+</h1>
 
 <p id="back">
     <a href=".">&lt; Go back to my site</a>
 </p>
 
-<div id="games">
-{% for id, game in data.tinarcade.games.items() %}
-    <div class="game">
+<div id="setups">
+{% for id, setup in data.teapot.setups.items() %}
+    <div class="setup">
         <h2 id="{{ id }}">
-            {{ game.name }}
+            {{ setup.name }}
             <a href="#{{ id }}" class="permalink emoji">🔗</a>
         </h2>
 
-        {% if game.photos %}
+        {% if setup.photos %}
         <div class="photos">
-            {% for photo in game.photos %}
+            {% for photo in setup.photos %}
             <a href="{{ photo }}" class="photo" target="_blank">
                 <img src="{{ photo }}">
             </a>
@@ -31,39 +34,31 @@
         </div>
         {% endif %}
 
-        {% if game.permanent == false %}
-        <p>🔧 This game is not permanently installed. So it does not have dedicated display and audio items.</p>
+        {% if setup.permanent == false %}
+        <p>🔧 This setup is not permanently installed. So it does not have dedicated display and audio items.</p>
         {% endif %}
 
-        {% set items = {'displays': game.displays, 'audio': game.audio} %}
+        {% set items = {'displays': setup.displays, 'audio': setup.audio} %}
 
-        {% if game.shared %}
-        <p>🤝 This setup is shared with other games. This means display and audio items are the same, not that I own them multiple times!</p>
+        {% if setup.shared %}
         <p>
-            See:
-            {% for game_id in game.shared %}
-            {% set shared = data.tinarcade.games[game_id] %}
-            {% set _ = items.update({'displays': items.displays or shared.displays}) %}
-            {% set _ = items.update({'audio': items.audio or shared.audio}) %}
-            <a href="#{{ game_id }}">{{ shared.name }}</a>
-            {% if not loop.last %}, {% endif %}
-            {% endfor %}
+            🤝 This setup is shared for multiple games. Controllers are easily swappable and scripts are configured to run the correct game by looking at which controller is plugged in!
         </p>
         {% endif %}
 
-        {% if game.cabinet %}
+        {% if setup.cabinet %}
         <p>This is an actual arcade cabinet.</p>
-        {% set item= game.cabinet %}
-        {% include "_tinarcade_item.html" %}
+        {% set item= setup.cabinet %}
+        {% include "_teapot_item.html" %}
         {% endif %}
 
         <div class="sections">
-            {% if game.controllers %}
+            {% if setup.controllers %}
             <div class="controllers">
                 <h3>Controllers</h3>
                 <div class="icon">🎮</div>
-                {% for item in game.controllers %}
-                {% include "_tinarcade_item.html" %}
+                {% for item in setup.controllers %}
+                {% include "_teapot_item.html" %}
                 {% endfor %}
             </div>
             {% endif %}
@@ -73,7 +68,7 @@
                 <h3>Displays</h3>
                 <div class="icon">🖥️</div>
                 {% for item in items.displays.values() %}
-                {% include "_tinarcade_item.html" %}
+                {% include "_teapot_item.html" %}
                 {% endfor %}
             </div>
             {% endif %}
@@ -84,7 +79,7 @@
                 <div class="icon">🎵</div>
                 {% for name, item in items.audio.items() %}
                 <p>{{ name.title() }}:</p>
-                {% include "_tinarcade_item.html" %}
+                {% include "_teapot_item.html" %}
                 {% endfor %}
             </div>
             {% endif %}

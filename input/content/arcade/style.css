@@ -29,6 +29,12 @@ a:hover {
 h1 {
     text-align: center;
     font-size: 3.5em;
+    line-height: 1;
+}
+
+h1 small {
+    font-size: 0.5em;
+    line-height: 1;
 }
 
 td, th {
@@ -54,24 +60,24 @@ td, th {
     text-align: center;
 }
 
-#games {
+#setups {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-#games h2 {
+#setups h2 {
     margin-top: .5em;
     margin-bottom: 1.5em;
 }
 
-#games .photo img {
+#setups .photo img {
     margin: .5em;
     max-height: 300px;
     max-width: 100%;
     border-radius: 10px;
 }
 
-.game {
+.setup {
     background-color: var(--background-light);
     color: var(--text-color-light);
     border-radius: 10px;
@@ -80,20 +86,20 @@ td, th {
     margin: 1em;
 }
 
-#games .sections {
+#setups .sections {
     display: flex;
 }
 
-#games .sections h3 {
+#setups .sections h3 {
     text-align: center;
 }
 
-#games .icon {
+#setups .icon {
     text-align: center;
     font-size: 3em;
 }
 
-#games .sections > * {
+#setups .sections > * {
     flex: 1 0 calc(33.33% - 10px - 1em);
     margin: 0 5px;
     background-color: rgba(0, 0, 0, 0.1);
@@ -102,11 +108,11 @@ td, th {
 }
 
 @media screen and (max-width: 900px) {
-    #games .sections {
+    #setups .sections {
         flex-direction: column;
     }
 
-    #games .sections > * {
+    #setups .sections > * {
         flex: 1 0 auto;
         margin: 5px 0;
     }

@@ -1,9 +1,9 @@
-games:
+setups:
   2dx:
     name: beatmania IIDX
     permanent: true
     photos:
-      - https://tina.moe/assets/cloud/tinarcade/iidx.jpg
+      - https://tina.moe/assets/cloud/teapot/2dx.jpg
 
     controllers:
       - name: Controller from official cabinet (legacy model)
@@ -64,15 +64,24 @@ games:
     card: true
     headphones: true
 
-  sdvx:
-    name: SOUND VOLTEX
-    shared:
-      - chuni
+  hybrid:
+    name: Hybrid setup for CHUNITHM, pop'n music, SOUND VOLTEX, and Taiko no Tatsujin
     photos:
-      - https://tina.moe/assets/cloud/tinarcade/sdvx.jpg
+      - https://tina.moe/assets/cloud/teapot/chuni.jpg
+      - https://tina.moe/assets/cloud/teapot/popn.jpg
+      - https://tina.moe/assets/cloud/teapot/sdvx.jpg
+      - https://tina.moe/assets/cloud/teapot/taiko.jpg
     permanent: true
+    shared: true
     controllers:
-      - name: GAMO2 FauceTwo (VW Edition)
+      - name: CHUNITHM GCON 2.5
+        notes: Used, bought off @konakwa.
+        cost: 280€
+        date: 2024-05-13
+      - name: Rodent PnM ASC
+        cost: 150€
+        notes: Used, bought off @nydy.
+      - name: SDVX GAMO2 FauceTwo (VW Edition)
         notes: Used, bought off @konakwa.
         cost: 220€
         date: 2023-02-14
@@ -80,10 +89,22 @@ games:
           buttons: DJDAO custom
           springs: DJDAO 60g
           switches: "BT: Omron V-10-1A4 (100g), FX: Omron D2MV-01-1C2 (25g)"
-      - name: VIRGOO TurboCharger+
+      - name: SDVX VIRGOO TurboCharger+
         cost: Gift from family (approx. 300€)
         date: 2016-12-07
         use: false
+      - name: Taiko Force Lv5
+        cost: £305 (355€)
+        date: 2023-02-04
+        notes: Bought off @mangomizer. Included a pair of cheap bachis, justifying the £5 difference with the other one.
+      - name: Taiko Force Lv5
+        cost: £300 (350€)
+        date: 2023-11-26
+        notes: Bought off @casthour / crppolor.
+      - name: Official MyBachis
+        cost: 130€ (¥6000 each)
+        date: 2024-01-17
+        notes: Red, Blue, and Yellow official pairs of MyBachis.
     displays:
       main:
         name: Samsung Odyssey G3 32" 1080p 165Hz
@@ -106,30 +127,10 @@ games:
     card: true
     headphones: true
 
-  chuni:
-    name: CHUNITHM
-    photos:
-      - https://tina.moe/assets/cloud/tinarcade/chuni.jpg
-    permanent: true
-    shared:
-      - sdvx
-    controllers:
-      - name: GCON 2.5
-        notes: Used, bought off @konakwa.
-        cost: 280€
-        date: 2024-05-13
-    displays:
-      main:
-        name: Samsung Odyssey G3 32" 1080p 165Hz
-        cost: 200€
-    audio:
-      speakers:
-        name: Logitech Z213 2.1
-
   wacca:
     name: WACCA
     photos:
-      - https://tina.moe/assets/cloud/tinarcade/wacca.jpg
+      - https://tina.moe/assets/cloud/teapot/wacca.jpg
     permanent: true
     cabinet:
       date: 2024-01-28
@@ -140,6 +141,16 @@ games:
         SpeedyLabs LEDs set, WACCA Reverse decorations.
     card: true
     headphones: true
+
+  geki:
+    name: ONGEKI
+    photos:
+      - https://tina.moe/assets/cloud/teapot/geki.jpg
+    controllers:
+      - name: GAMO2 ONTROLLER
+        cost: 643€ ($400 + $238 shipping + 35€ customs)
+        date: 2024-08-08
+    card: true
 
   ddr:
     name: DanceDanceRevolution and In The Groove
@@ -156,17 +167,6 @@ games:
         date: 2023-11-20
         notes: Another Handbar was included in this shipment to use with the USB EX pad. Refer to it for price.
     card: true
-
-  popn:
-    name: pop'n music
-    permanent: false
-    controllers:
-      - name: Rodent PnM ASC
-        cost: 150€
-        notes: Used, bought off @nydy.
-      - name: GAMO2 POPN (PS2 era)
-        cost: Gift from bemani-inside
-        use: false
 
   piu:
     name: Pump It Up
@@ -189,22 +189,3 @@ games:
       - name: YuanCon GENBU GC
         cost: Gift from family
         notes: Modded for Switch compatibility, drops inputs on holds.
-
-  taiko:
-    name: Taiko no Tatsujin
-    photos:
-      - https://tina.moe/assets/cloud/tinarcade/taiko.jpg
-    permanent: false
-    controllers:
-      - name: Taiko Force Lv5
-        cost: £305 (355€)
-        date: 2023-02-04
-        notes: Bought off @mangomizer. Included a pair of cheap bachis, justifying the £5 difference with the other one.
-      - name: Taiko Force Lv5
-        cost: £300 (350€)
-        date: 2023-11-26
-        notes: Bought off @casthour / crppolor.
-      - name: Official MyBachis
-        cost: 130€ (¥6000 each)
-        date: 2024-01-17
-        notes: Red, Blue, and Yellow official pairs of MyBachis.

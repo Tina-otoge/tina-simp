@@ -56,3 +56,12 @@ h1 a, h2 a {
 	top: .15em;
 	font-size: 1em;
 }
+
+
+.emoji {
+    font-size: 80%;
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 1.2em;
+	max-height: 1.2em;
+}

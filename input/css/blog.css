@@ -70,7 +70,7 @@
 	margin: .5em;
 }
 
-#blog article img {
+#blog article img:not(.emoji) {
 	max-width: 100%;
 	max-height: calc(100vh - 2em);
 	margin: auto;

@@ -152,6 +152,18 @@ setups:
         date: 2024-08-08
     card: true
 
+  dmxg:
+    name: GITADORA DrumMania XG SD
+    photos:
+      - https://tina.moe/assets/cloud/tinarcade/dmxg.jpg
+    cabinet:
+      date: 2025-09-26
+      cost: 2500€
+      notes: |
+        Bought off @Vortex_Arcade.
+
+        Currently hosted at my parents' since I don't have space for it.
+
   ddr:
     name: DanceDanceRevolution and In The Groove
     photos:

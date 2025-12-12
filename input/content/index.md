@@ -26,11 +26,8 @@ Street** in Paris which had a lot of major arcade rhythm games, such as
 beatmania IIDX, pop'n music, Taiko no Tatsujin, jubeat, and inevitably
 DanceDanceRevolution.
 
-Today I own several arcade controller replicas, namely but not exhaustively 3
-**IIDX** controllers, 2 **pop'n music** controllers, 2 **Taiko** drums, an
-**SDVX** controller, a metal **DDR** dance pad, a **Groove Coaster** controller,
-a 24-inch **touchscreen**, and my passion even spread to my relatives as my
-girlfriend owns an actual **jubeat arcade cabinet**.
+Today I own several arcade controller replicas, the full list is available at
+https://tina.moe/arcade.
 
 I'm very passionate about them and I try to play a bit of every rhythm game out
 there. I spend most of my time and efforts getting better at IIDX and SDVX, but
@@ -47,7 +44,10 @@ community**][msn/discord].
 
 # Tech, computers, programming and school
 
-I am a developer. I'm currently enrolled at the French graduate school
+I am a DevOps engineer. I worked as lead of infra for multiple clients such as
+Carrefour and LaPoste and French public services, and then moved to beng a
+consulting DevOps engineer for banks. I am now working for an international
+energy distributor. I graduated from the French computer engineering school
 [EPITECH][wikipedia/epitech] which delivers the equivalent of a master's degree
 in computer science, with a strong emphasis on doing almost exclusively
 practical projects and no theoretical courses. I also did 1 year of prep school

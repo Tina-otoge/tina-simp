@@ -104,6 +104,7 @@ setups:
         notes: Bought off @casthour / crppolor.
       - name: GAMO2 NOSTROLLER
         cost: 255€ + 20€ shipping
+        date: 2025-09-30
         notes: Bought from @MaxHax.
       - name: Official MyBachis
         cost: 130€ (¥6000 each)

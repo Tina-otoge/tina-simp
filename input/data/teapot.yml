@@ -71,6 +71,7 @@ setups:
       - https://tina.moe/assets/cloud/teapot/popn.jpg
       - https://tina.moe/assets/cloud/teapot/sdvx.jpg
       - https://tina.moe/assets/cloud/teapot/taiko.jpg
+      - https://tina.moe/assets/cloud/teapot/nost.jpg
     permanent: true
     shared: true
     controllers:
@@ -101,6 +102,9 @@ setups:
         cost: £300 (350€)
         date: 2023-11-26
         notes: Bought off @casthour / crppolor.
+      - name: GAMO2 NOSTROLLER
+        cost: 255€ + 20€ shipping
+        notes: Bought from @MaxHax.
       - name: Official MyBachis
         cost: 130€ (¥6000 each)
         date: 2024-01-17
